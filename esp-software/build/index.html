@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning HTML</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #d0f0d4;
+        }
+        .topNav{
+            width: 100%;
+            
+        }
+        .nav-container{
+            width: 100%;
+            background-color: #ff4e74;
+            padding: 10px 10px 10px 5px;
+                position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+            
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            margin: 5px 10px 5px 10px;
+            
+            
+        }
+        nav ul a:first-child{
+            margin-left: auto;
+        }
+        nav ul a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px 10px 4px 10px;
+            color: #252530;
+            margin-right: 30px;
+        }
+        .items{
+            padding: 2em;
+            background-color: #ff4e74;
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 2em;
+            
+        }
+        .grid-container{
+            margin: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            gap: 2em;
+            
+        }
+        .card-section{
+            margin-top: 90px;
+        }
+ 
+    </style>
+</head>
+<body>
+        <div>
+            <nav class="topNav">
+                <div class="nav-container">
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About me</a>
+                        </li>
+                        <li>
+                            <a href="">My services</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                        <li>
+                            <a href="">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        </div>
+        <p>
+
+        </p>
+    <section class="card-section">
+        <h1>Explore more about the developer!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores corrupti, aliquid repellendus suscipit debitis autem nulla, asperiores non voluptates tempora enim consequuntur repudiandae laborum dicta sit corporis officia, labore a?</p>
+        <div class="grid-container">
+                    <div class="items">
+                
+                    What we do
+                
+        </div>
+        <div class="items" >
+            item 1
+
+        </div>
+        <div class="items">
+            
+                    What we do
+            
+        </div>
+        
+        </div>
+    </section>
+    
+            
+    
+    
+</body>
+</html>
